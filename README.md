@@ -8,7 +8,7 @@ Download or clone repository
 
 Open a command line, navigate to bchjs-slp-wallet-tools-main and run:
 
-'npm i'
+`npm i`
 
 _*ignore errors (keccak, secp ...)_
 
@@ -20,7 +20,7 @@ Open .env file (eg. in notepad) which is located in conversion directory, paste 
 
 From the command line navigate to conversion directory and run:
 
-'npm start'
+`npm start`
 
 and you will see your address detail
 
@@ -30,7 +30,7 @@ This app creates a wallet address (derivation path is m/44'/245'/0')
 
 From the command line navigate to wallet directory and run:
 
-'npm start'
+`npm start`
 
 You will see a generated wallet address
 
@@ -56,7 +56,7 @@ legacyAddress: "..."
 
 WIF: "..."
 
-_*you can open it in eg. notepad. If you run 'npm start' again in the wallet directory, files will be overwritten_
+_*you can open it in eg. notepad. If you run `npm start` again in the wallet directory, files will be overwritten_
 
 ## Check-balances
 
@@ -64,6 +64,6 @@ This app check ballance in the generated wallet address
 
 From the command line navigate to chcek-balances directory and run:
 
-'npm start'
+`npm start`
 
-and you will your wallet address balance
+and you will get your wallet address balance
