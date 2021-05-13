@@ -1,0 +1,28 @@
+{
+  "name": "bchjs-slp-wallet-tools",
+  "version": "1.0.1",
+  "description": "SLP wallet tools with bch-js from FullStack.cash",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run lint",
+    "lint": "standard --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mazetoken/bchjs-slp-wallet-tools.git"
+  },
+  "keywords": [
+    "bitcoin cash",
+    "bch",
+    "simpleledger",
+    "slp",
+    "javascript"
+  ],
+  "author": "Chris Troutner <chris.troutner@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/Permissionless-Software-Foundation/bch-js-examples#readme",
+  "dependencies": {
+    "@psf/bch-js": "^4.5.4",
+    "dotenv": "^9.0.2"
+  }
+}

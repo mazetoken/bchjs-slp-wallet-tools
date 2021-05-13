@@ -1,0 +1,15 @@
+{
+  "name": "create-wallet",
+  "version": "1.0.1",
+  "description": "Generate bch slp wallet address, seed phrase and private key",
+  "main": "generate-wallet.js",
+  "scripts": {
+    "test": "echo no tests yet",
+    "start": "node generate-wallet.js"
+  },
+  "author": "Chris Troutner <chris.troutner@gmail.com>",
+  "contributors": [
+    "Gabriel Cardona <gabriel@bitcoin.com>"
+  ],
+  "license": "MIT"
+}
