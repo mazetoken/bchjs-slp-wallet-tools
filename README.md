@@ -56,4 +56,14 @@ legacyAddress: "..."
 
 WIF: "..."
 
-_*you can open it in eg. notepad_
+_*you can open it in eg. notepad. If you run 'npm start' again in the wallet directory, files will be overwritten_
+
+## Check-balances
+
+This app check ballance in the generated wallet address
+
+From the command line navigate to chcek-balances directory and run:
+
+'npm start'
+
+and you will your wallet address balance
